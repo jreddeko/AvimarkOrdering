@@ -1,0 +1,35 @@
+
+
+    Date of Order: 02-11-10                             Westlock Veterinary Center                                     Page  1
+    Order No: 10021101                                 P U R C H A S E   O R D E R                          Status: Open Order
+
+
+    TO: KEY AS VALUE PET PACK                                                                FROM: Westlock Veterinary Center
+                                                                                             10004 - 94a Ave.
+                                                                                             Westlock, AB T7P 2M9
+                                                                                             780-349-3663  
+
+     Ordered  U/M  Item Pack Item No.  Description                    Mfg. No.    Loc        On Hand          Pkg Cost     Total
+    ------------------------------------------------------------------------------------------------------------------------------------
+         1     BAG      1    8228      MCRC Fe Preventive Maint  8kg  VMD65260                     2             42.38     42.38
+         2     BAG      1    8428      MCRC Fe Urinary SO  3.5kg      117787                       3             23.47     46.94
+         1     BAG      1    8360      MCRC K9 Calorie Control  15kg  115966                       2             69.19     69.19
+               (PKG)   12    8304      MCRC K9 Calorie Control 385g   116648                      56             22.70
+         1     BAG      1    8358      MCRC K9 Calorie Control 3kg    117003                       3             17.56     17.56
+         1     BAG      1    8100      MCRC K9 Dental  1.5kg          117005                       5              8.22      8.22
+         2     BAG      1    8093      MCRC K9 Hypoallergenic HP 3.5  118027                       3             25.63     51.26
+               (PKG)   12    8329      MCRC K9 Low Fat  385g          116824                      35             20.82
+         1     BAG      1    8489      MCRC K9 Preventive 15kg (*in   117865                       6             31.17     31.17
+         2     BAG      1    8246      MCRC K9 Preventive Main 15kg   118017                       4             43.16     86.32
+         1     BAG      1    8240      MCRC K9 Puppy Development 16k  117020                       3             53.02     53.02
+         1     BAG      1    8373      MCRC K9 Sensitivity RC  8kg    115981                       1             45.71     45.71
+         2     BAG      1    8377      MCRC K9 Urinary SO  3kg        117007                       2             17.35     34.70
+         1     BAG      1    8169      MCRC K9 Weight Cont. Mature    118023                       2             49.81     49.81
+         1     BAG      1    8425      MCRC Fe Urinary SO  1.5kg      117004                       6             11.13     11.13
+               (PKG)   24    8312      MCRC K9 Urinary S/O  385g      107783                      31             21.95
+               (PKG)   24    8097      Hills Feline K/D  5.5oz.       105105                       3             38.30
+         1     BAG      1    8429      MCRC Fe Calorie Control  1.5k  117533                       4             12.47     12.47
+         1     BAG      1    8606      MCRC Fe Calorie Control 3 kg   118018                       3             23.70     23.70
+         2     BAG      1    8239      MCRC Fe Mature  4kg            VMD65330                     4             27.01     54.02
+         1     BAG      1    8539      Yesterday's News Soft Texture  103667                       2             13.88     13.88
+

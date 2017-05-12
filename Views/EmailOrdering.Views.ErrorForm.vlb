@@ -1,0 +1,17 @@
+﻿[Panel1]
+Coordinates=0,0,47,51
+
+[RichEdit1]
+Coordinates=66,1,61,33
+
+[StringGrid1]
+Coordinates=200,0,70,51
+Visible=True
+
+[Button1]
+Coordinates=66,53,53,51
+
+[]
+Coordinates=270,0,92,51
+Visible=False
+

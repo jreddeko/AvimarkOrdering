@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="C:\Users\jreddekopp\Documents\Embarcadero\Studio\Projects\EmailOrdering\Tests\Win32\Debug\EmailUnitTests.exe" total="4" errors="2" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2017-02-22" time="0.042">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="EmailUnitTests.exe" executed="true" result="Failure" success="False" time="0.042" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="ConfigTests" executed="true" result="Success" success="True" time="0.018" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TEmailOrderingTest" executed="True" result="Success" success="True" time="0.018" >
+                <results>
+                  <test-case name="TestConfig.T1" executed="True" result="Success" success="True" time="0.018" asserts="0" />
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+        <test-suite type="Namespace" name="EmailTests" executed="true" result="Success" success="True" time="0.024" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TEmailTests" executed="True" result="Success" success="True" time="0.024" >
+                <results>
+                  <test-case name="TestIfAviEmail.T1" executed="True" result="Error" success="False" time="0.009" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Cannot load message from file C:\Users\jreddekopp\Documents\AviMarkTests\Brentwood Animal Hospital Purchase Order.msg ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestIfAviEmail.T1" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                  <test-case name="TestRelayEmail.T1" executed="True" result="Error" success="False" time="0.008" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ SSL IOHandler is required for this setting ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>

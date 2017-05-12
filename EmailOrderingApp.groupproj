@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4346699B-F86C-46AA-AE17-475D2613F2CA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="EmailOrdering.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Tests\EmailUnitTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="EmailOrdering">
+        <MSBuild Projects="EmailOrdering.dproj"/>
+    </Target>
+    <Target Name="EmailOrdering:Clean">
+        <MSBuild Projects="EmailOrdering.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmailOrdering:Make">
+        <MSBuild Projects="EmailOrdering.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EmailUnitTests">
+        <MSBuild Projects="Tests\EmailUnitTests.dproj"/>
+    </Target>
+    <Target Name="EmailUnitTests:Clean">
+        <MSBuild Projects="Tests\EmailUnitTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EmailUnitTests:Make">
+        <MSBuild Projects="Tests\EmailUnitTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="EmailOrdering;EmailUnitTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="EmailOrdering:Clean;EmailUnitTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="EmailOrdering:Make;EmailUnitTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
